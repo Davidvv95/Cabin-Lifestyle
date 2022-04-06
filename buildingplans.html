@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cabin Lifestyle</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN -->
+
+    <script src="https://kit.fontawesome.com/da74810f11.js" crossorigin="anonymous"></script>
+    <!-- jQuery CDN -->
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous">
+    </script>
+  </head>
+  <body class="plans-bg-color">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Cabin Lifestyle</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Download building plans</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="buildingplans.html#aframe">A Frame</a></li>
+              <li><a class="dropdown-item" href="buildingplans.html#log">Log Cabin</a></li>
+              <li><a class="dropdown-item" href="buildingplans.html#family">Family House</a></li>
+              <li><a class="dropdown-item" href="buildingplans.html#small">Small Cabin</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+          </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+    <!-- Main Content -->
+    <main>
+      <h1><i class="fa-solid fa-house-chimney"></i><br>Do It Yourself</h1>
+      <section class="container yt-video">
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/LovsHHk3tuM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      <section class="plans-bg-image mb-3">
+        <div class="image-overlay">
+          <h2 id="header-click">Free Cabin Building Plans<br><i class="fa-solid fa-caret-down"></i></h2>
+        </div>
+      </section>
+      <section id="plans-display" class="container-fluid">
+        <!--  Download Options -->
+        <div class="row">
+          <div id="aframe" class="col-md-6 mb-3">
+            <img src="img/plana.jpg" alt="" class="img-fluid mb-3">
+            <h4>A Frame - 2 Bedrooms</h4>
+            <p>A 2 bedroom A frame house, with a kitchen, living area and office.</p>
+            <button type="button" class="btn btn-outline-light">Download Plan</button>
+          </div>
+          <div id="log" class="col-md-6 mb-3">
+            <img src="img/log.jpg" alt="" class="img-fluid mb-3">
+            <h4>Log Cabin - 2 bedrooms</h4>
+            <p>A 2 bedroom house with a spacious living area and large windows.</p>
+            <button type="button" class="btn btn-outline-light">Download Plan</button>
+          </div>
+          <div id="family" class="col-md-6 mb-3">
+            <img src="img/planc.jpg" alt="" class="img-fluid mb-3">
+            <h4>Family Lake House</h4>
+            <p>A large 4 bedroom cabin, ideal for a family vacation with up to 18 people.</p>
+            <button type="button" class="btn btn-outline-light">Download Plan</button>
+          </div>
+          <div id="small" class="col-md-6 mb-3">
+            <img src="img/pland.jpg" alt="" class="img-fluid mb-3">
+            <h4>1 Bedroom Cabin</h4>
+            <p>A small, modern cabin with 1 bedroom. Ideal for a couple.</p>
+            <button type="button" class="btn btn-outline-light">Download Plan</button>
+          </div>
+        </div>
+      </div>
+      </section>
+
+
+    </main>
+    <!-- End of Main Content -->
+    <!--Footer -->
+    <footer class="page-footer">
+     <p>
+       &copy; <span id="date"></span>
+       <span class="footer-logo">CabinLifestyle2022</span>
+     </p>
+   </footer>
+   <!-- End of Footer -->
+    <!-- main.js Link -->
+      <script src="main.js"></script>
+    <!-- Bootstrap Javascript CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>
